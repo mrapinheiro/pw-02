@@ -30,6 +30,16 @@ The back-end is a Node.js/Express API providing authentication and dynamic proje
 ```bash
 cd portfolio-backend
 npm install
+```
+
+Create a `.env` file in the `portfolio-backend` directory with the following content:
+
+```
+JWT_SECRET=<your_unique_random_string_here>
+PORT=5000
+```
+
+```bash
 npm start  # or npm run dev for development with nodemon
 ```
 
